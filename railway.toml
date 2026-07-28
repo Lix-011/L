@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[build.nixpacksConfig]
+installCmd = "cd music-bot && npm i"
+
+[deploy]
+startCommand = "cd music-bot && node index.js"
