@@ -1,0 +1,19 @@
+{
+  "name": "ls-music-bot",
+  "version": "1.0.0",
+  "description": "Lś | Music — 6 Arabic Discord Music Bots",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.17.0",
+    "opusscript": "^0.1.1",
+    "tweetnacl": "^1.0.3",
+    "play-dl": "^1.9.7",
+    "ffmpeg-static": "^5.2.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
